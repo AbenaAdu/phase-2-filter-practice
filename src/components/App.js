@@ -7,7 +7,9 @@ function App() {
   return (
     <div className="App">
 
-      <img className="absolute fly-in" src={spaceShuttle} alt="space shuttle" />
+      <img className="absolute fly-in" 
+      src={spaceShuttle} 
+      alt="space shuttle" />
 
       <PlanetsContainer />
       <StarsContainer />

@@ -1,11 +1,11 @@
-function MoonCard() {
-
+function MoonCard({moon}) {
+const {name, fun_fact} = moon
   return (
     <div className="white-border">
 
-      <h3>{/* moon name goes here */}</h3>
+      <h3>{name}</h3>
 
-      <p>{/* moon fact goes here */}</p>
+      <p>{fun_fact}</p>
 
     </div>
   )
